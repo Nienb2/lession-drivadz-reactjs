@@ -1,0 +1,29 @@
+.block-home {
+  width: 1280px;
+  margin: auto;
+}
+
+.block-campaign {
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.campaign-list {
+  list-style: none;
+  display: flex;
+}
+
+.campaign-item {
+  margin-right: 30px;
+}
+
+.campaign-active {
+  font-weight: 600;
+  color: #222;
+}
+
+.campaign-link {
+  text-decoration: none;
+  color: #666;
+}

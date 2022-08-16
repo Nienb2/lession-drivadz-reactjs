@@ -1,0 +1,43 @@
+.slider {
+  height: 600px;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+}
+
+.group-img {
+  height: 100%;
+}
+
+.slide-item {
+  width: 100%;
+  height: 100%;
+}
+
+.dots {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 18px;
+}
+
+.dot-item {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #fff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #fff;
+  }
+}
+
+.active {
+  background-color: #fff;
+}

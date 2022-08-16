@@ -1,0 +1,86 @@
+.slider {
+  height: 600px;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+}
+
+.group-img {
+  height: 100%;
+}
+
+.slide-item {
+  width: 100%;
+  height: 100%;
+}
+
+.dots {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 18px;
+}
+
+.dot-item {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #fff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #fff;
+  }
+}
+
+.active {
+  background-color: #fff;
+}
+
+/* slogan */
+.slogan {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-title {
+  font-size: 24px;
+}
+
+/* campaign */
+.block-home {
+  width: 1280px;
+  margin: auto;
+}
+
+.block-campaign {
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.campaign-list {
+  list-style: none;
+  display: flex;
+}
+
+.campaign-item {
+  margin-right: 30px;
+}
+
+.campaign-active {
+  font-weight: 600;
+  color: #222;
+}
+
+.campaign-link {
+  text-decoration: none;
+  color: #666;
+}
